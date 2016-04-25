@@ -1,8 +1,5 @@
-<ion-view view-title="{{album.name}}">
+<ion-view view-title=" {{ album.name }} ">
   <ion-content class="padding">
-    <img ng-src="{{album.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{album.lastText}}
-    </p>
+      <ion-gallery ion-gallery-row="4" ion-gallery-items="album.images"></ion-gallery>
   </ion-content>
 </ion-view>
