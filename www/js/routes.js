@@ -25,21 +25,21 @@ angular.module('starter').config(function($stateProvider, $urlRouterProvider) {
 		}
 	})
 
-	.state('tab.chats', {
-		url: '/chats',
+	.state('tab.albums', {
+		url: '/albums',
 		views: {
-			'tab-chats': {
-				templateUrl: 'templates/tab-chats.html',
-				controller: 'ChatsCtrl'
+			'tab-albums': {
+				templateUrl: 'templates/tab-albums.html',
+				controller: 'AlbumsController'
 			}
 		}
 	})
-	.state('tab.chat-detail', {
-		url: '/chats/:chatId',
+	.state('tab.album', {
+		url: '/albums/:albumId',
 		views: {
-			'tab-chats': {
-				templateUrl: 'templates/chat-detail.html',
-				controller: 'ChatDetailCtrl'
+			'tab-albums': {
+				templateUrl: 'templates/album.html',
+				controller: 'AlbumController'
 			}
 		}
 	});
