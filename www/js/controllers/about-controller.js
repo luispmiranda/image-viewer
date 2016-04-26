@@ -1,3 +1,3 @@
-angular.module('starter.controllers').controller('AboutController', function($scope) {
+angular.module('imageViewer').controller('AboutController', function($scope) {
 
 })
